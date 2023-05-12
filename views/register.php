@@ -64,7 +64,7 @@ if(isset($_POST["register"])) {
             <hr class="w-100">
         </div>
         <div class="d-flex justify-content-center">
-            <span>sudah punya akun?<a href="login.php" class="text-decoration-none m-1 ">register</a></span>
+            <span>sudah punya akun?<a href="login.php" class="text-decoration-none m-1 ">login</a></span>
         </div>
     </div>
 <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
