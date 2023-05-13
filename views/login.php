@@ -23,6 +23,12 @@ if(isset($_POST["login"])) {
                 $_SESSION["login"] = true;
                 header("Location: index.php");
                 exit;
+             } else {
+                echo "
+                <script>
+                    alert('password salah, coba lagi');
+                </script>
+                ";
              }
         }
 }
